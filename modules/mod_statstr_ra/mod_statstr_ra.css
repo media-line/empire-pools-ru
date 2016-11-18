@@ -1,0 +1,41 @@
+.statstr-wrapper {
+    width: 1340px !important;
+    padding-top: 20px;
+}
+
+.statstr {
+    display: flex;
+    margin: 0 auto;
+}
+
+.statstr_ed {
+    width: 9.09%;
+    white-space: pre-line;
+}
+
+.statstr_ed .num, .statstr_ed .text {
+    text-align: center;
+}
+
+.statstr_ed .num {
+    color: #007fff;
+    font-weight: bolder;
+    font-size: 36pt;
+    transition: 0.5s;
+}
+
+.statstr_ed .num:hover {
+    transition: 0.5s;
+    -o-transform: scale(1.5, 1.5);
+    -ms-transform: scale(1.5, 1.5);
+    -moz-transform: scale(1.5, 1.5);
+    -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+    color: #66C5EA;
+}
+
+.statstr_ed .text {
+    font-size: 11pt;
+    color: #5a6263;
+    padding: 0 5px;
+}

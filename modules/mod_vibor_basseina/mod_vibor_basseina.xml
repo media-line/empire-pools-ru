@@ -1,0 +1,24 @@
+<install type="module" version="1.5.0">
+    <name>mod_vibor_basseina</name>
+    <version>0.1</version>
+    <description>Выводит выбор оформления басейна</description>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <files>
+		<filename module="mod_vibor_basseina">mod_vibor_basseina.php</filename>
+		<filename>mod_vibor_basseina.xml</filename>
+        <filename>index.html</filename>
+        <folder>tmpl</folder>
+        <folder>assets</folder>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">  
+                <field
+                    name="moduleclass_sfx"
+                    type="text"
+                    label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                    description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />                               
+            </fieldset> 
+        </fields>
+    </config>       	
+</install>

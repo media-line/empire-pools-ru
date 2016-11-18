@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.0"
+	client="site"
+	method="upgrade">
+	<name>Модуль покрытий для бассейнов</name>
+	<author>Sergei Bolonikov</author>
+	<creationDate>2016</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>sergeibolonikov@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>Модуль покрытий для бассейнов</description>
+	<files>
+		<filename module="mod_cover_pool_gr">mod_cover_pool_gr.php</filename>
+		<filename>index.html</filename>		
+		<filename>mod_cover_pool_gr.xml</filename>
+        <folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+                <field name="text1" type="text"
+					label="Название 1" />	
+                <field name="img1" type="media"
+					label="Изображение 1" />
+                <field name="url1" type="text"
+					label="Ссылка 1" />
+                   
+                <field name="text2" type="text"
+					label="Название 2" />	
+                <field name="img2" type="media"
+					label="Изображение 2" />
+                <field name="url2" type="text"
+					label="Ссылка 2" />
+                   
+                <field name="text3" type="text"
+					label="Название 3" />	
+                <field name="img3" type="media"
+					label="Изображение 3" />
+                <field name="url3" type="text"
+					label="Ссылка 3" />
+                    
+                <field name="text4" type="text"
+					label="Название 4" />	
+                <field name="img4" type="media"
+					label="Изображение 4" />
+                <field name="url4" type="text"
+					label="Ссылка 4" />
+            </fieldset>
+		</fields>
+	</config>
+</extension>

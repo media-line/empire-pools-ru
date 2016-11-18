@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.0"
+	client="site"
+	method="upgrade">
+	<name>Модуль видео</name>
+	<author>Sergei Bolonikov</author>
+	<creationDate>2016</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>sergeibolonikov@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>Модуль видео</description>
+	<files>
+		<filename module="mod_video_gr">mod_video_gr.php</filename>
+		<filename>index.html</filename>		
+		<filename>mod_video_gr.xml</filename>
+        <folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+                <field name="text-main" type="editor" filter="safehtml"
+					label="Основной текст" />	
+                <field name="text-name" type="text"
+					label="Название" />	
+                <field name="video" type="text" filter="raw"
+					label="Видео" />	
+            </fieldset>
+		</fields>
+	</config>
+</extension>

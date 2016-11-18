@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.0"
+	client="site"
+	method="upgrade">
+	<name>Модуль строки со статистикой</name>
+	<author>Andrei Krauchanka</author>
+	<creationDate>12.2016</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>krauchanka.a@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>Модуль строки со статистикой</description>
+	<files>
+		<filename module="mod_statstr_ra">mod_statstr_ra.php</filename>
+		<filename>index.html</filename>		
+		<filename>mod_statstr_ra.xml</filename>
+        <folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+                <field name="num1" type="text"
+					label="Цифра 1" />
+				<field name="text1" type="text"
+					   label="Текст 1" />
+
+                <field name="num2" type="text"
+                       label="Цифра 2" />
+                <field name="text2" type="text"
+                       label="Текст 2" />
+
+                <field name="num3" type="text"
+                       label="Цифра 3" />
+                <field name="text3" type="text"
+                       label="Текст 3" />
+
+                <field name="num4" type="text"
+                       label="Цифра 4" />
+                <field name="text4" type="text"
+                       label="Текст 4" />
+
+                <field name="num5" type="text"
+                       label="Цифра 5" />
+                <field name="text5" type="text"
+                       label="Текст 5" />
+
+                <field name="num6" type="text"
+                       label="Цифра 6" />
+                <field name="text6" type="text"
+                       label="Текст 6" />
+
+                <field name="num7" type="text"
+                       label="Цифра 7" />
+                <field name="text7" type="text"
+                       label="Текст 7" />
+
+                <field name="num8" type="text"
+                       label="Цифра 8" />
+                <field name="text8" type="text"
+                       label="Текст 8" />
+
+                <field name="num9" type="text"
+                       label="Цифра 9" />
+                <field name="text9" type="text"
+                       label="Текст 9" />
+
+                <field name="num10" type="text"
+                       label="Цифра 10" />
+                <field name="text10" type="text"
+                       label="Текст 10" />
+
+                <field name="num11" type="text"
+                       label="Цифра 11" />
+                <field name="text11" type="text"
+                       label="Текст 11" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

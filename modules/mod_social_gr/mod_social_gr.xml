@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.0"
+	client="site"
+	method="upgrade">
+	<name>Модуль соц. кнопок</name>
+	<author>Sergei Bolonikov</author>
+	<creationDate>2016</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>sergeibolonikov@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>Модуль соц. кнопок</description>
+	<files>
+		<filename module="mod_social_gr">mod_social_gr.php</filename>
+		<filename>index.html</filename>		
+		<filename>mod_social_gr.xml</filename>
+        <folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+                <field name="social1" type="text"
+					label="Соц кнопка 1" />	
+                <field name="social-class1" type="text"
+					label="Класс поля 1" />
+                    
+                <field name="social2" type="text"
+					label="Соц кнопка 2" />	
+                <field name="social-class2" type="text"
+					label="Класс поля 2" />	
+                    
+                <field name="social3" type="text"
+					label="Соц кнопка 3" />	
+                <field name="social-class3" type="text"
+					label="Класс поля 3" />
+                    
+                <field name="social3" type="text"
+					label="Соц кнопка 3" />	
+                <field name="social-class3" type="text"
+					label="Класс поля 3" />
+                    
+                <field name="social4" type="text"
+					label="Соц кнопка 4" />	
+                <field name="social-class4" type="text"
+					label="Класс поля 4" />
+                    
+                <field name="social5" type="text"
+					label="Соц кнопка 5" />	
+                <field name="social-class5" type="text"
+					label="Класс поля 5" />
+                    
+                <field name="social6" type="text"
+					label="Соц кнопка 6" />	
+                <field name="social-class6" type="text"
+					label="Класс поля 6" />
+                    
+                <field name="social7" type="text"
+					label="Соц кнопка 7" />	
+                <field name="social-class7" type="text"
+					label="Класс поля 7" />
+                    
+                <field name="social8" type="text"
+					label="Соц кнопка 8" />	
+                <field name="social-class8" type="text"
+					label="Класс поля 8" />
+            </fieldset>
+		</fields>
+	</config>
+</extension>

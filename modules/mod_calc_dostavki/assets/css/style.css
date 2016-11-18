@@ -1,0 +1,19 @@
+.printSelected div {display: none } /* скрываем весь контент на странице */
+.printSelected div.printSelection {display: block; } /* делаем видимым только тот блок, который подготовлен для печати */
+.printSelected div.printSelection div {display: block; } /* показываем всех его потомков, которые были скрыты первой строкой */
+.printSelected div.printSelection * {font-size:18px; }
+.printSelected div.printSelection button {display:none;}
+.printSelected div.printSelection table {margin:0 auto;}
+.printSelected div.printSelection table td{padding:15px 20px;vertical-align:top;}
+.printSelected div.printSelection p{margin-bottom:15px;}
+.printSelected div.printSelection table td b span,
+.printSelected div.printSelection span.hidden{font-weight:bold;}
+
+
+#calc_dostavki table td{vertical-align:top;padding:10px 20px 10px 0;}
+#calc_dostavki table td select{margin-top:5px;padding:3px;}
+#calc_dostavki table td b span{font-weight:bold;}
+#calc_dostavki table td p{margin-bottom:15px;}
+#calc_dostavki table td.text{padding-top:38px;}
+#calc_dostavki table td span.hidden{display:none;}
+#calc_dostavki button{padding:5px 10px;}

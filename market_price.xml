@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<yml_catalog date="2016-02-05 17:22">
+<shop>
+<name>Композитные бассейны Empire Pools</name>
+<company>Empire Pools</company>
+<url>http://empire-pools.ru/</url>
+
+<currencies>
+<currency  id="RUR" rate="1"/>
+</currencies>
+
+<categories>
+<category id="1">Стационарные бассейны</category>
+<category id="2" parentId="1">Композитные бассейны</category>
+<category id="3">Товары для дома и дачи</category>
+<category id="4">Бассейны</category>
+</categories>
+
+<offers>
+<offer id="1" available="false" bid="23" cbid="43">
+<url>http://empire-pools.ru/bassein/item/13-florentciia.html</url>
+<price>320000</price>
+<currencyId>RUR</currencyId>
+<categoryId>2</categoryId>
+<picture>http://empire-pools.ru/images/thumbnails/images/florentciia2-200x179.png</picture>
+<picture>http://empire-pools.ru/images/review/chumakov2.jpg</picture>
+<picture>http://empire-pools.ru/images/fgal/florencia/f1.jpg</picture>
+<picture>http://empire-pools.ru/images/fgal/florencia/f4.jpg</picture>
+<name>Композитный бассейн Empire Pools 7,2х3,2х1,75 м. Флоренция</name>
+<vendor>Empire Pools</vendor>
+<model>Флоренция</model>
+<description>Поистине оптимальный вариант для тех, кто хочет совместить в бассейне спорт и отдых. Длина бассейна - 7,2 м - вполне достаточна для ежедневных занятий плаванием. Глядя на него, так легко представить себя сидящим на краю бассейна под тёплыми лучами летнего солнца! Нежное тепло буквально пронизывает всё тело, а прохладная вода дарит ощущение свежести и покоя.</description>
+<sales_notes>Необходима предоплата 10%</sales_notes>
+<barcode>4813146000904</barcode>
+<age>0</age>
+<manufacturer_warranty>false</manufacturer_warranty>
+<param name="Материал">Композит</param>
+<param name="длина" unit="метр">7,2</param>
+<param name="ширина" unit="метр">3,2</param>
+<param name="глубина" unit="метр">1,75</param>
+<param name="Вес" unit="кг">850</param>
+</offer>
+
+<offer id="2" available="false" bid="23" cbid="43">
+<url>http://empire-pools.ru/bassein/item/12-hilton.html</url>
+<price>800000</price>
+<currencyId>RUR</currencyId>
+<categoryId>2</categoryId>
+<picture>http://empire-pools.ru/images/thumbnails/images/hilton-200x179.png</picture>
+<picture>http://empire-pools.ru/images/fgal/hilton/h1.jpg</picture>
+<picture>http://empire-pools.ru/images/fgal/hilton/h2.jpg</picture>
+<picture>http://empire-pools.ru/images/fgal/hilton/h3.jpg</picture>
+<name>Композитный бассейн Empire Pools 11,4х4,10х1,6 м. Хилтон</name>
+<vendor>Empire Pools</vendor>
+<model>Хилтон</model>
+<description>Модель «Хилтон» - одна из последних новинок «Empire pools», что не мешает ей уже сейчас пользоваться огромной популярностью! Габариты бассейна и удобство конструкции позволяют установить на него практически все виды дополнительного оборудования.</description>
+<sales_notes>Необходима предоплата 10%</sales_notes>
+<barcode>4813146000898</barcode>
+<age>0</age>
+<manufacturer_warranty>false</manufacturer_warranty>
+<param name="Материал">Композит</param>
+<param name="длина" unit="метр">11,4</param>
+<param name="ширина" unit="метр">4,1</param>
+<param name="глубина" unit="метр">1,6</param>
+<param name="Вес" unit="кг">1050</param>
+</offer>
+
+<offer id="3" available="false" bid="23" cbid="43">
+<url>http://empire-pools.ru/bassein/item/11-kontinent.html</url>
+<price>1300000</price>
+<currencyId>RUR</currencyId>
+<categoryId>2</categoryId>
+<picture>http://empire-pools.ru/images/thumbnails/images/kontinent2-200x179.png</picture>
+<picture>http://empire-pools.ru/images/fgal/kontinent/kon1.jpg</picture>
+<picture>http://empire-pools.ru/images/fgal/kontinent/kon2.jpg</picture>
+<picture>http://empire-pools.ru/images/fgal/kontinent/kon6.jpg</picture>
+<name>Композитный бассейн Empire Pools 10,7х5,5х1,85 м. Континент</name>
+<vendor>Empire Pools</vendor>
+<model>Континент</model>
+<description>Адресован тем, для кого размер имеет значение. Внушительный по размеру бассейн станет гордостью Вашей семьи. Спортивная плавательная дорожка позволит полноценно заниматься спортом. Эргономичный подводный диван - прекрасное место для загара. Эти опции создают гармонию спортивного и многофункционального бассейна.</description>
+<sales_notes>Необходима предоплата 10%</sales_notes>
+<barcode>4813146000881</barcode>
+<age>0</age>
+<manufacturer_warranty>false</manufacturer_warranty>
+<param name="Материал">Композит</param>
+<param name="длина" unit="метр">10,7</param>
+<param name="ширина" unit="метр">5,5</param>
+<param name="глубина" unit="метр">1,85</param>
+<param name="Вес" unit="кг">1850</param>
+</offer>
+
+<offer id="4" available="false" bid="23" cbid="43">
+<url>http://empire-pools.ru/bassein/item/10-malibu.html</url>
+<price>225000</price>
+<currencyId>RUR</currencyId>
+<categoryId>2</categoryId>
+<picture>http://empire-pools.ru/bassein/item/10-malibu.html</picture>
+<picture>http://empire-pools.ru/images/fgal/maliboo/m1.jpg</picture>
+<picture>http://empire-pools.ru/images/fgal/maliboo/m2.jpg</picture>
+<picture>http://empire-pools.ru/images/fgal/maliboo/m9.jpg</picture>
+<name>Композитный бассейн Empire Pools 5,15х3,15х1,5 м. Малибу</name>
+<vendor>Empire Pools</vendor>
+<model>Малибу</model>
+<description>Модель «Малибу», кажется, предназначена специально для этого. Только представьте: Ваши малыши весело резвятся в прохладной водичке, а Вы в это время сидите на подводных креслах под тенью зонтика и пьёте свежевыжатый сок!</description>
+<sales_notes>Необходима предоплата 10%</sales_notes>
+<barcode>4813146000874</barcode>
+<age>0</age>
+<manufacturer_warranty>false</manufacturer_warranty>
+<param name="Материал">Композит</param>
+<param name="длина" unit="метр">5,15</param>
+<param name="ширина" unit="метр">3,15</param>
+<param name="глубина" unit="метр">1,5</param>
+<param name="Вес" unit="кг">650</param>
+</offer>
+
+<offer id="5" available="false" bid="23" cbid="43">
+<url>http://empire-pools.ru/bassein/item/9-malta.html</url>
+<price>250000</price>
+<currencyId>RUR</currencyId>
+<categoryId>2</categoryId>
+<picture>http://empire-pools.ru/images/thumbnails/images/malta2-200x179.png</picture>
+<picture>http://empire-pools.ru/images/fgal/malta/ma1.jpg</picture>
+<picture>http://empire-pools.ru/images/fgal/malta/ma3.jpg</picture>
+<picture>http://empire-pools.ru/images/fgal/malta/ma7.jpg</picture>
+<name>Композитный бассейн Empire Pools 6,35х3,05х1,5 м. Мальта</name>
+<vendor>Empire Pools</vendor>
+<model>Мальта</model>
+<description>Это красота, воплощённая в простоте. Ни одной лишней линии, ни одного угла. Только плавная округлость формы, так и манящая окунуться в прохладу воды.</description>
+<sales_notes>Необходима предоплата 10%</sales_notes>
+<barcode>4813146000850</barcode>
+<age>0</age>
+<manufacturer_warranty>false</manufacturer_warranty>
+<param name="Материал">Композит</param>
+<param name="длина" unit="метр">6,35</param>
+<param name="ширина" unit="метр">3,05</param>
+<param name="глубина" unit="метр">1,5</param>
+<param name="Вес" unit="кг">750</param>
+</offer>
+
+<offer id="6" available="false" bid="23" cbid="43">
+<url>http://empire-pools.ru/bassein/item/8-liuksor.html</url>
+<price>375000</price>
+<currencyId>RUR</currencyId>
+<categoryId>2</categoryId>
+<picture>http://empire-pools.ru/images/thumbnails/images/liuksor2-200x179.png</picture>
+<picture>http://empire-pools.ru/images/fgal/luxore/l3.jpg</picture>
+<picture>http://empire-pools.ru/images/fgal/luxore/l5.jpg</picture>
+<picture>http://empire-pools.ru/images/fgal/luxore/l6.jpg</picture>
+<name>Композитный бассейн Empire Pools 8,31х3,32х1,5 м. Люксор</name>
+<vendor>Empire Pools</vendor>
+<model>Люксор</model>
+<description>Пользуется особой популярностью у тех, кто любит активный отдых. Ведь эта модель позволяет не только плавать, но и играть в спортивные игры. Волейбол, водное поло, ныряние с трамплина - большие размеры бассейна и оптимальная ширина делают его прекрасным местом для спортивного веселья.</description>
+<sales_notes>Необходима предоплата 10%</sales_notes>
+<barcode>4813146000867</barcode>
+<age>0</age>
+<manufacturer_warranty>false</manufacturer_warranty>
+<param name="Материал">Композит</param>
+<param name="длина" unit="метр">8,31</param>
+<param name="ширина" unit="метр">3,32</param>
+<param name="глубина" unit="метр">1,5</param>
+<param name="Вес" unit="кг">900</param>
+</offer>
+
+<offer id="7" available="false" bid="23" cbid="43">
+<url>http://empire-pools.ru/bassein/item/4-reddison.html</url>
+<price>595000</price>
+<currencyId>RUR</currencyId>
+<categoryId>2</categoryId>
+<picture>http://empire-pools.ru/images/thumbnails/images/redisson2-200x179.png</picture>
+<picture>http://empire-pools.ru/images/fgal/redison/r1.jpg</picture>
+<picture>http://empire-pools.ru/images/fgal/redison/r2.jpg</picture>
+<picture>http://empire-pools.ru/images/fgal/redison/r4.jpg</picture>
+<name>Композитный бассейн Empire Pools 8,63х3,33х1,6 м. Рэдисcон</name>
+<vendor>Empire Pools</vendor>
+<model>Рэдисcон</model>
+<description>Новая модель бассейна настоящая икона американского стиля. В этом бассейне продумано всё для расслабляющего и в то же время активного отдыха. Удобные диванчики по бокам бассейна подарят Вам незабываемые минуты спокойствия, отдыха и наслаждения, не выходя из воды. А просторная плавательная зона вызовет восхищение у любителей заниматься спортом, здесь можно смело поиграть в волейбол с семьей и друзьями.</description>
+<sales_notes>Необходима предоплата 10%</sales_notes>
+<barcode>4813146000867</barcode>
+<age>0</age>
+<manufacturer_warranty>false</manufacturer_warranty>
+<param name="Материал">Композит</param>
+<param name="длина" unit="метр">8,63</param>
+<param name="ширина" unit="метр">3,33</param>
+<param name="глубина" unit="метр">1,6</param>
+<param name="Вес" unit="кг">950</param>
+</offer>
+
+<offer id="8" available="false" bid="23" cbid="43">
+<url>http://empire-pools.ru/bassein/item/3-spa.html</url>
+<price>76000</price>
+<currencyId>RUR</currencyId>
+<categoryId>2</categoryId>
+<picture>http://empire-pools.ru/images/thumbnails/images/spa2-200x179.png</picture>
+<name>Композитный бассейн Empire Pools 2,4х2,4х0,9 м. Спа</name>
+<vendor>Empire Pools</vendor>
+<model>Спа</model>
+<description>Вспомните, как приятно принять ванну после тяжёлого трудового дня. Большее наслаждение можно получить лишь в спа, снять напряжение и восстановит жизненные силы. Для тех, кто мечтает всегда выглядеть молодо и привлекательно, абсолютно незаменим. Вода - источник здоровья и силы.</description>
+<sales_notes>Необходима предоплата 10%</sales_notes>
+<barcode>4813146000911</barcode>
+<age>0</age>
+<manufacturer_warranty>false</manufacturer_warranty>
+<param name="Материал">Композит</param>
+<param name="длина" unit="метр">2,4</param>
+<param name="ширина" unit="метр">2,4</param>
+<param name="глубина" unit="метр">0,9</param>
+<param name="Вес" unit="кг">160</param>
+</offer>
+
+<offer id="9" available="false" bid="23" cbid="43">
+<url>http://empire-pools.ru/bassein/item/2-san-remo.html</url>
+<price>139000</price>
+<currencyId>RUR</currencyId>
+<categoryId>2</categoryId>
+<picture>http://empire-pools.ru/images/thumbnails/images/spa2-200x179.png</picture>
+<picture>http://empire-pools.ru/images/fgal/sanremo/s2.jpg</picture>
+<picture>http://empire-pools.ru/images/fgal/sanremo/s1.jpg</picture>
+<picture>http://empire-pools.ru/images/fgal/sanremo/s5.jpg</picture>
+<name>Композитный бассейн Empire Pools 4х2,5х1,5 м. Сан ремо</name>
+<vendor>Empire Pools</vendor>
+<model>Сан ремо</model>
+<description>Это красота, воплощённая в простоте. Ни одной лишней линии, ни одного угла. Только плавная округлость формы, так и манящая окунуться в прохладу воды.</description>
+<sales_notes>Необходима предоплата 10%</sales_notes>
+<barcode>4813146000836</barcode>
+<age>0</age>
+<manufacturer_warranty>false</manufacturer_warranty>
+<param name="Материал">Композит</param>
+<param name="длина" unit="метр">4</param>
+<param name="ширина" unit="метр">2,5</param>
+<param name="глубина" unit="метр">1,5</param>
+<param name="Вес" unit="кг">300</param>
+</offer>
+
+<offer id="10" available="false" bid="23" cbid="43">
+<url>http://empire-pools.ru/bassein/item/1-kupel.html</url>
+<price>56000</price>
+<currencyId>RUR</currencyId>
+<categoryId>2</categoryId>
+<picture>http://empire-pools.ru/images/thumbnails/images/kupel2-200x179.png</picture>
+<name>Композитный бассейн Empire Pools 1,7х1,4х1,3 м. Купель</name>
+<vendor>Empire Pools</vendor>
+<model>Купель</model>
+<description>Одно из наиболее удачных сочетаний длины и глубины чаши. Возможность с головой окунуться в ледяную воду после парилки. Благодаря большой глубине купели в неё можно даже нырять!</description>
+<sales_notes>Необходима предоплата 10%</sales_notes>
+<barcode>4813146000928</barcode>
+<age>0</age>
+<manufacturer_warranty>false</manufacturer_warranty>
+<param name="Материал">Композит</param>
+<param name="длина" unit="метр">1,7</param>
+<param name="ширина" unit="метр">1,4</param>
+<param name="глубина" unit="метр">1,3</param>
+<param name="Вес" unit="кг">100</param>
+</offer>
+
+</offers>
+</shop>
+</yml_catalog>

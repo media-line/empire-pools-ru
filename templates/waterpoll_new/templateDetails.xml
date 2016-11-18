@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="2.5" type="template">
+	<name>waterpoll</name>
+	<creationDate>20.04.2013</creationDate>
+	<author>Alexius</author>
+	<authorEmail>alexius@ya.ru</authorEmail>
+	<version>1.0.0</version>
+	
+	<files>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+	</files>
+	
+	<positions>
+		<position>top_pos</position>
+		<position>user1</position>
+		<position>slider</position>
+		<position>left</position>
+		<position>copyright</position>		
+		<position>kotnakt_pos</position>
+		<position>main_page_pos</position>
+		<position>vibor_basseins_pos</position>
+		<position>calc_dostavki_pos</position>
+		<position>forma_zakaza_pos</position>
+		
+		
+		<position>right</position>
+		<position>footer</position>
+		<position>contacts</position>
+		<position>breadcrumbs</position>		
+		<position>topsl</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>logout_lp</position>
+		<position>hide_block</position>
+		
+		<position>model_florentciia</position>
+		<position>model_hilton</position>
+		<position>model_kontinent</position>
+		<position>model_malibu</position>
+		<position>model_malta</position>
+		<position>model_liuksor</position>
+		<position>model_reddison</position>
+		<position>model_spa</position>
+		<position>model_san</position>
+		<position>model_kupel</position>
+		
+		
+	</positions>
+
+</install>

@@ -1,0 +1,16 @@
+#bassein{/*background:url(../img/bassein.jpg) no-repeat;*/width:965;height:521px;}
+#bassein .popup_block {display:none;position:absolute;padding:15px;background:url(http://empire-pools.ru//images/bloc.png) repeat;width:240px;height:222px;z-index:5;}
+#bassein .popup_block h3{font-weight:bold;font-size:18px;padding:0 0 15px 0;}
+#bassein .block{display:block;float:left;}
+#bassein #oborudovanie {margin:415px 0 0 225px;}
+/*#bassein #oborudovanie {margin:415px 0 0 360px;}*/
+#bassein #technologiya {margin:415px 0 0 150px;}
+#bassein #cvet_basseina{margin:390px 0 0 140px;}
+#bassein #otdelka{margin:325px 0 0 115px;}
+#bassein .plus{position:relative;z-index:7;}
+#content_block #bassein p{margin:0;}
+#bassein p.img{text-align:center;}
+#bassein p.desc{color:#7b7b7b;padding:0 0 15px 0;}
+#oborudovanie_popup{margin:-23px 0 0 -272px;}
+#technologiya_popup,#otdelka_popup{margin:-272px 0 0 -146px;}
+#cvet_basseina_popup{margin:-22px 0 0 22px;}

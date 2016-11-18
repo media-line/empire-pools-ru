@@ -1,0 +1,291 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+ul#top_menu li a {    
+   padding-left: 5px !important;
+   padding-right: 5px !important;
+}
+ul#additional_top_menu li {
+    padding: 0 0 0 3px !important;
+}
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.catItemIntroText img {
+		max-width:100%;
+		height:auto !important;}
+	.kont {
+    float: inherit !important;
+    padding-right: inherit !important;
+    padding-top: 10px !important;
+    font-size: 24px;
+	text-align:center;
+	background: rgba(255, 255, 255, 0.6);
+}
+	
+	#bassein{
+		height:auto !important;}
+	#technologiya{display:none !important;}
+	#cvet_basseina{display:none !important;}
+	#otdelka{display:none !important;}
+	#oborudovanie{display:none !important;}
+.center_main_page {
+    background: url(../images/bassein.jpg) no-repeat scroll center top transparent;
+    background-size: 100% !important;
+} 
+.jcarousel_prod {width: 90% !important;}
+.top_header {
+      height: auto !important;
+}
+#winter-banner{
+	display: none !important;	}
+.deal1{
+	display: none;	
+	}
+.deal1 img{
+	display: none !important;
+	}	
+	#left_block .dealers {
+    padding-top: 0px !important; 
+}
+.dealers h3{display: none;
+	}	
+#left_block .moduletable h3{
+	text-align:center;}	
+	#left_block .moduletable .dealers{
+		text-align:center;}
+		.dealers p {
+    padding: 0 0 0px 0 !important;
+}
+.specialist_item, .moduletable .dealers {
+      padding: 5px !important;
+	  margin: 0 0 10px 0 !important;}
+.specialist_item table{
+	margin:auto;}	
+	.moduletable.banners{
+	display:none !important;}
+ul#top_menu li{		
+		display: none;		
+	}
+.top_pos {
+   float: inherit;
+   text-align:center;
+   padding-top: 12px;
+   margin-left: 0px !important;
+   margin-top: -60px;
+}	
+.logo {
+   padding: 5px 35px 5px 0 !important;
+   float: inherit !important;
+}
+ul#additional_top_menu {
+    float: right;
+    padding: 15px 0 25px 0 !important;
+    margin-top: -50px !important;
+}	
+ul#top_menu {
+    position: absolute !important;
+	right:0;
+	    z-index: 1000;
+	width: 100%;
+	    padding-top: 15px;
+}
+ul#top_menu li{
+    float: none !important;
+    background:#000c2f;
+}
+ul#additional_top_menu li {
+    float: left;
+    background:#000c2f;
+}
+ul#top_menu li a {
+    height: auto !important;
+	text-align:center;    
+    border-bottom: 1px solid;
+}
+
+ul#top_menu li ul li {
+       background: #002e69 !important;
+}
+ul#top_menu li ul {
+    display: none;
+    position: inherit !important;
+    /* background: url(../images/top_menu_parent_bg.png); */
+    z-index: 777;
+}	
+#left_block {
+    float: inherit !important; 
+    width: 100% !important;
+	display:none;
+}
+.competitors {
+    background: url(../images/competitors.png) no-repeat;
+    width: 213px;
+    height: 161px;
+    position: inherit;
+    top: 157px;
+   margin: auto;
+    text-align: center;
+}	
+#medialine {
+    
+    display: none;
+}
+div.itemBackToTop {
+   
+    margin-top: 50px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	#fancy_outer{
+	left: 10% !important;   
+    width: 80% !important;
+	 height: 1420px !important;
+  }
+	
+#content_block {
+    margin-left: 0px !important;
+}
+.item-page table{
+	width:100%;}
+	
+.breadcrumbs * {
+    font-size: 12px !important;
+   }
+	.kont {
+   
+    font-size: 18px !important;
+    padding-bottom: 20px;
+	
+}
+.jcarousel_prod {
+    width: 85% !important;
+}
+.oboryd img{
+	display:none;}
+	.catItemInfoBlock td.catItemReadMore a {
+   
+    display: none;}
+	.catItemInfoBlock {
+    padding: 0px 0px 0px 0px;
+}
+.catItemBody .catItemHeader {
+     padding: 0px 0px 0 0px; 
+}
+#calc_dostavki{
+    width: 90% !important;
+    font-size: 10px;
+}
+#calc_dostavki table td {
+    vertical-align: top;
+    padding: 10px 0px 10px 0;
+}
+}
+@media only screen and (max-width : 560px) {
+	.catItemInfoBlock td p {
+    margin: 0;
+    font-size: 11px;
+}
+	.dost img{
+		display:none;}
+		.kach img{
+		display:none;}
+		.why img{
+		display:none;}
+	.top_pos {
+    margin-top: -20px !important;
+    padding-bottom: 5px;}
+	ul#additional_top_menu {
+    margin-top: -100px !important;
+}
+ul#top_menu {
+       padding-top: 5px !important;}
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	#fancy_outer{
+	left: 5% !important;   
+    width: 90% !important;
+	 height: 1470px !important;
+  }
+	.jcarousel_prod {
+    width: 77% !important;
+}
+#footer {
+      text-align: center;
+}
+#footer #medialine p {
+    text-align: center !important;
+}
+div.catItemIntroText1 img {
+    height: auto;
+	padding:2px;
+    width: 100%;
+}
+.catItemImageBlock1 {
+  
+    float: inherit !important;
+  
+}
+.kont {
+    font-size: 15px !important;
+    
+}
+}
+
+/* Custom, iPhone Retina
+ */
+@media only screen and (max-width : 320px) {
+	#calc_dostavki{
+    width: 90% !important;
+    font-size: 8px;
+}
+	.jcarousel_prod {
+    width: 70% !important;
+}.logo img{
+		width:130px;}
+#medialine img {
+    margin-top: 0px !important;
+}
+.specialist_item td.foto {
+       display: none;
+}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+.oboryd img{
+	width:400px;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.ban_min{
+	display:none !important;}
+	.catItemBody2{
+		display:flex;}
+		.bassein_min{display:none;}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.0"
+	client="site"
+	method="upgrade">
+	<name>Модуль с таймером обратного отсчета</name>
+	<author>Andrei Krauchanka</author>
+	<creationDate>12.2016</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>krauchanka.a@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>Модуль с таймером обратного отсчета</description>
+	<files>
+		<filename module="mod_timer_ra">mod_timer_ra.php</filename>
+		<filename>index.html</filename>		
+		<filename>mod_timer_ra.xml</filename>
+        <filename>mod_timer_ra.css</filename>
+        <folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+                <field name="text1" type="editor" filter="safehtml"
+					label="Текст" />	
+                <field name="text2" type="text" filter="safehtml"
+					label="Текст над временем" />
+                <field name="date" type="calendar" format="%Y-%m-%d %H:%I:%S" filter="raw"
+					label="Дата окончания акции" />
+            </fieldset>
+		</fields>
+	</config>
+</extension>

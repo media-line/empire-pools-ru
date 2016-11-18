@@ -1,0 +1,45 @@
+#fancy_ajax, #fancy_ajax *{margin:0;padding:0;color:#595959;font:normal 14px "Myriad Pro", Arial;outline:medium none;}
+/*#fancy_ajax p{margin:0;display:none;}*/
+#fancy_ajax h1{font-size:21px;text-transform:uppercase;font-weight:bold;padding:0 0 20px 0;}
+#podbor_parametrov{float:right;margin:-94px 0 0 0;position:relative;z-index:10;background:#ffffff;padding:15px 25px;}
+
+#podbor_parametrov td.img,#border_popup td.img,#water_popup td.img,
+#podbor_parametrov td.first{padding:0 10px 0 0;}
+
+#podbor_parametrov td img ,#border_popup td img,#water_popup td img{cursor:pointer;} 
+
+#podbor_parametrov p{display:block;}
+#podbor_parametrov p.name{font-weight:bold;font-size:16px;}
+
+td#border,td#water{width:150px;}
+
+#fancy_ajax span.btn{cursor:pointer;border-bottom:1px dotted #0899c8;color:#0899c8;}
+#fancy_ajax span.no_border{border-bottom:none;}
+#fancy_ajax span.prev_border,#fancy_ajax span.next_border,
+#fancy_ajax span.prev_water,#fancy_ajax span.next_water{display:block;font-size:12px;}
+#fancy_ajax span.prev_border,#fancy_ajax span.prev_water{float:left}
+#fancy_ajax span.next_border,#fancy_ajax span.next_water{float:right;}
+
+
+#border_popup{position:absolute;/*display:none;*/margin:0 0 0 505px;margin-top:-370px;width:192px;height:270px;z-index:1;}
+#water_popup{position:absolute;/*display:none;*/margin:0 0 0 665px;-margin-top:-370px;width:192px;height:270px;z-index:1;}
+
+	#fancy_ajax .list_wrap{background:#ffffff;padding:10px 25px;width:144px !important;height:222px !important;}
+	#fancy_ajax .list_wrap{background:#ffffff;padding:10px 25px;width:144px !important;height:222px !important;}
+	#fancy_ajax .navigation{background:#e3e3e3;padding:7px 25px;}
+
+#border_popup td,#border_popup td.img,
+#water_popup td,#water_popup td.img{padding-bottom:15px;vertical-align:middle;}
+#border_popup tr.last td,#border_popup tr.last td.img,
+#water_popup tr.last td,#water_popup tr.last td.img{padding-bottom:0;}
+.border_jcarousel li {/*width:192px !important;height:242px !important;*/}
+.border_jcarousel .tbl_wrap,.water_jcarousel .tbl_wrap{width:192px;}
+
+.border_jcarousel,.water_jcarousel{left:0;overflow:hidden;position:relative;visibility:visible;width:192;z-index:2;}
+.border_jcarousel ul{left:0;list-style-type:none;margin:0;padding:0;position:relative;width:1344px;z-index:1;}
+.border_jcarousel ul li{float:left;height:242px;overflow:hidden;width:192px;}
+
+.water_jcarousel ul{left:0;list-style-type:none;margin:0;padding:0;position:relative;width:960px;z-index:1;}
+.water_jcarousel ul li{float:left;height:242px;overflow:hidden;width:192px;}
+
+#result{position:relative;z-index:10;}

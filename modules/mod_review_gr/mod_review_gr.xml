@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.0"
+	client="site"
+	method="upgrade">
+	<name>Модуль отзывов</name>
+	<author>Sergei Bolonikov</author>
+	<creationDate>2016</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>sergeibolonikov@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>Модуль отзывов</description>
+	<files>
+		<filename module="mod_review_gr">mod_review_gr.php</filename>
+		<filename>index.html</filename>		
+		<filename>mod_review_gr.xml</filename>
+        <folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+                <field name="text-name1" type="text"
+					label="Название (жирным)" />	
+                <field name="text-name2" type="textarea" filter="raw"
+					label="Название (обычное)" />	
+            </fieldset>
+			<fieldset name="review1" label="Первый отзыв">
+                <field name="img1" type="media"
+					label="Фото" />	
+                <field name="fio1" type="text"
+					label="Имя Отчество" />	
+                <field name="prof1" type="text"
+					label="Должность" />	
+                <field name="rate1" type="text"
+					label="Рейтинг (от 1 до 5)" />	
+                <field name="review1" type="textarea"
+					label="Отзыв" />
+                <field name="photo1-1" type="media"
+					label="Фото 1" />
+                <field name="photo1-2" type="media"
+					label="Фото 2" />
+                <field name="photo1-3" type="media"
+					label="Фото 3" />
+            </fieldset>
+			<fieldset name="review2" label="Второй отзыв">
+                <field name="img2" type="media"
+					label="Фото" />	
+                <field name="fio2" type="text"
+					label="Имя Отчество" />	
+                <field name="prof2" type="text"
+					label="Должность" />	
+                <field name="rate2" type="text"
+					label="Рейтинг (от 1 до 5)" />	
+                <field name="review2" type="textarea"
+					label="Отзыв" />
+                <field name="photo2-1" type="media"
+					label="Фото 1" />
+                <field name="photo2-2" type="media"
+					label="Фото 2" />
+                <field name="photo2-3" type="media"
+					label="Фото 3" />
+            </fieldset>
+			<fieldset name="review3" label="Третий отзыв">
+                <field name="img3" type="media"
+					label="Фото" />	
+                <field name="fio3" type="text"
+					label="Имя Отчество" />	
+                <field name="prof3" type="text"
+					label="Должность" />	
+                <field name="rate3" type="text"
+					label="Рейтинг (от 1 до 5)" />	
+                <field name="review3" type="textarea"
+					label="Отзыв" />
+                <field name="photo3-1" type="media"
+					label="Фото 1" />
+                <field name="photo3-2" type="media"
+					label="Фото 2" />
+                <field name="photo3-3" type="media"
+					label="Фото 3" />
+            </fieldset>
+			<fieldset name="review4" label="Четвёртый отзыв">
+                <field name="img4" type="media"
+					label="Фото" />	
+                <field name="fio4" type="text"
+					label="Имя Отчество" />	
+                <field name="prof4" type="text"
+					label="Должность" />	
+                <field name="rate4" type="text"
+					label="Рейтинг (от 1 до 5)" />	
+                <field name="review4" type="textarea"
+					label="Отзыв" />
+                <field name="photo4-1" type="media"
+					label="Фото 1" />
+                <field name="photo4-2" type="media"
+					label="Фото 2" />
+                <field name="photo4-3" type="media"
+					label="Фото 3" />
+            </fieldset>
+			<fieldset name="review5" label="Пятый отзыв">
+                <field name="img5" type="media"
+					label="Фото" />	
+                <field name="fio5" type="text"
+					label="Имя Отчество" />	
+                <field name="prof5" type="text"
+					label="Должность" />	
+                <field name="rate5" type="text"
+					label="Рейтинг (от 1 до 5)" />	
+                <field name="review5" type="textarea"
+					label="Отзыв" />
+                <field name="photo5-1" type="media"
+					label="Фото 1" />
+                <field name="photo5-2" type="media"
+					label="Фото 2" />
+                <field name="photo5-3" type="media"
+					label="Фото 3" />
+            </fieldset>
+			<fieldset name="review6" label="Шестой отзыв">
+                <field name="img6" type="media"
+					label="Фото" />	
+                <field name="fio6" type="text"
+					label="Имя Отчество" />	
+                <field name="prof6" type="text"
+					label="Должность" />	
+                <field name="rate6" type="text"
+					label="Рейтинг (от 1 до 5)" />	
+                <field name="review6" type="textarea"
+					label="Отзыв" />
+                <field name="photo6-1" type="media"
+					label="Фото 1" />
+                <field name="photo6-2" type="media"
+					label="Фото 2" />
+                <field name="photo6-3" type="media"
+					label="Фото 3" />
+            </fieldset>
+			<fieldset name="review7" label="Седьмой отзыв">
+                <field name="img7" type="media"
+					label="Фото" />	
+                <field name="fio7" type="text"
+					label="Имя Отчество" />	
+                <field name="prof7" type="text"
+					label="Должность" />	
+                <field name="rate7" type="text"
+					label="Рейтинг (от 1 до 5)" />	
+                <field name="review7" type="textarea"
+					label="Отзыв" />
+                <field name="photo7-1" type="media"
+					label="Фото 1" />
+                <field name="photo7-2" type="media"
+					label="Фото 2" />
+                <field name="photo7-3" type="media"
+					label="Фото 3" />
+            </fieldset>
+			<fieldset name="review8" label="Восьмой отзыв">
+                <field name="img8" type="media"
+					label="Фото" />	
+                <field name="fio8" type="text"
+					label="Имя Отчество" />	
+                <field name="prof8" type="text"
+					label="Должность" />	
+                <field name="rate8" type="text"
+					label="Рейтинг (от 1 до 5)" />	
+                <field name="review8" type="textarea"
+					label="Отзыв" />
+                <field name="photo8-1" type="media"
+					label="Фото 1" />
+                <field name="photo8-2" type="media"
+					label="Фото 2" />
+                <field name="photo8-3" type="media"
+					label="Фото 3" />
+            </fieldset>
+		</fields>
+	</config>
+</extension>

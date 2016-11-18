@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.0"
+	client="site"
+	method="upgrade">
+	<name>Модуль преимуществ</name>
+	<author>Sergei Bolonikov</author>
+	<creationDate>2016</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>sergeibolonikov@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>Модуль преимуществ</description>
+	<files>
+		<filename module="mod_plus_gr">mod_plus_gr.php</filename>
+		<filename>index.html</filename>		
+		<filename>mod_plus_gr.xml</filename>
+        <folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+                <field name="img1" type="media"
+                    label="Изображение" />                     
+                <field name="plus1" type="text"
+                    label="Преимущество" />   
+                <field name="over-plus1" type="text"
+                    label="Над преимуществом" />                             
+                <field name="under-plus1" type="textarea"
+                    label="Под преимуществом" />      
+
+                <field name="img2" type="media"
+                    label="Изображение" />                     
+                <field name="plus2" type="text"
+                    label="Преимущество" />   
+                <field name="over-plus2" type="text"
+                    label="Над преимуществом" />                             
+                <field name="under-plus2" type="textarea"
+                    label="Под преимуществом" />    
+
+                <field name="img3" type="media"
+                    label="Изображение" />                     
+                <field name="plus3" type="text"
+                    label="Преимущество" />   
+                <field name="over-plus3" type="text"
+                    label="Над преимуществом" />                             
+                <field name="under-plus3" type="textarea"
+                    label="Под преимуществом" />                        
+			</fieldset>
+            
+            <fieldset name="advanced">
+				<field name="layout" type="modulelayout" 
+                    label="JFIELD_ALT_LAYOUT_LABEL" />     
+            </fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,1346 @@
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/MyriadPro-Regular.otf')  format('opentype'),
+	     url('../fonts/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf')  format('truetype'), url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?zeu3d');
+  src:  url('../fonts/icomoon.eot?zeu3d#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?zeu3d') format('truetype'),
+    url('../fonts/icomoon.woff?zeu3d') format('woff'),
+    url('../fonts/icomoon.svg?zeu3d#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Regular.eot');
+  src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Lato-Regular.woff2') format('woff2'),
+  url('../fonts/Lato-Regular.woff') format('woff'),
+  url('../fonts/Lato-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-back:before {
+  content: "\e905";
+}
+.icon-next:before {
+  content: "\e906";
+}
+.icon-phone-call:before {
+  content: "\e904";
+}
+
+.border_red {
+    border: 1px solid red;
+}
+
+.answer .modal-content{
+    position: relative;
+    padding: 20px 40px;
+}
+
+.answer .close{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    cursor: pointer;
+}
+
+.text-on-pool {
+    width: 45%;
+    font-size: 24px;
+    font-family: 'MyriadPro-Regular';
+    color: black;
+    position: relative;
+    top: 30px;
+}
+
+.text-on-pool > .custom {
+    position: absolute;
+}
+
+.text-on-pool .modal_form_btn  {
+    position: relative;
+    top: 130px;
+    z-index: 10;
+    padding: 10px 30px;
+    background-color: #f23c41;
+    color: white;
+    border: 1px solid #f23c41;
+    font-size: 18px;
+    display: inline-block;
+    font-family: 'Open Sans';
+    cursor: pointer;
+    -webkit-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+.text-on-pool .modal_form_btn:hover  {
+    background-color: white;
+    color: #f23c41;
+}
+
+#content_block.content-mainpage {
+    margin-left: 0;
+}
+
+.phone-call:before {
+    content: "\e904";
+    font-family: 'icomoon' !important;
+    padding-right: 10px;
+    position: relative;
+    top: 1px;
+}
+
+.modal-content-form {
+    padding: 20px;
+    position: relative;
+}
+
+.modal-content-form .close {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 22px;
+    cursor: pointer;
+    color: black;
+    -webkit-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+.modal-content-form .close:hover {
+    color: #f23c41;
+}
+
+.modal-content-form .page-head {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 32px;
+}
+
+.modal-content-form .input {
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    height: 40px;
+    padding: 0 10px;
+}
+
+.modal-content-form .file {
+    text-align: center;
+}
+
+.modal-content-form button {
+    color: white;
+    background-color: #337ab7;
+    border: 1px solid #337ab7;
+    padding: 5px 40px;
+    border-radius: 2px;
+    -webkit-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear; 
+    font-size: 20px;    
+}
+
+.modal-content-form button:hover {
+    color: #337ab7;
+    background-color: white;
+}
+
+.pools-slick {
+    position: relative;
+    padding: 0 30px;
+}
+
+.pools-slick .next_prod {
+    position: absolute;
+    top: 0;
+    right: -10px;
+}
+
+.pools-slick .prev_prod {
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+
+.pools-slick a.moduleItemFull {
+    display: block;
+    padding: 0 10px;
+}
+
+.pools-slick a:hover {
+    text-decoration: none;
+}
+
+.pools-slick .moduleItemTitle {
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+}
+
+.pools-slick a, .pools-slick a:hover, .pools-slick span {
+    color: #337ab7 !important;
+}
+
+.pools-slick a:hover span {
+    border-bottom: 1px solid transparent !important;
+}
+
+.center_main_page {
+    box-shadow: 0 0 30px gray;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #MOD_PLUS (модуль преимуществ)
+\*------------------------------------*/
+.mod-plus-gr {
+    padding: 40px 0;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.mod-plus-gr .plus1 {
+    box-shadow: -6px 6px 30px rgba(0,0,0, 0.1);
+}
+
+.mod-plus-gr .plus2 {
+    box-shadow: 0 6px 30px rgba(0,0,0, 0.1);
+}
+
+.mod-plus-gr .plus3 {
+    box-shadow: 6px 6px 30px rgba(0,0,0, 0.1);
+}
+
+.mod-plus-gr .plus1, .mod-plus-gr .plus3 {
+    width: 35%;
+    float: left;
+}
+
+.mod-plus-gr .plus2 {
+    width: 30%;
+    float: left;
+    position: relative;
+    top: -30px;
+}
+
+.mod-plus-gr .plus2:after {
+    position: absolute;
+    content: '';
+    width: 115%;
+    background-image: url('../images/treangle.png');
+    background-size: 102%;
+    background-repeat: no-repeat;
+    height: 70px;
+    left: -26px;
+}
+
+.mod-plus-gr .img {
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 40px;
+}
+.mod-plus-gr .plus2 .img {
+    height: 240px;
+}
+
+.mod-plus-gr .over {
+    font-size: 14px;
+    padding: 0 50px;
+}
+
+.mod-plus-gr .under {
+    font-size: 14px;
+    padding: 0 50px 30px 50px;
+}
+
+.mod-plus-gr .text {
+    font-size: 28px;
+    padding-bottom: 30px;
+    color: #007eff;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.mod-plus-gr .text:after { 
+    content: '';
+    position: relative;
+    bottom: 15px;
+    width: 90px;
+    height: 5px;
+    display: inline-block;
+    background-color: #e8e8e8;
+    top: 15px;
+}
+
+.mod-plus-gr .text-top {
+    padding-bottom: 60px;
+    font-size: 24px;
+    font-family: 'MyriadPro-Regular';
+}
+
+.mod-plus-gr .text-bottom {
+    padding-top: 40px;
+    font-size: 24px;
+    font-family: 'MyriadPro-Regular';
+}
+
+
+
+
+
+/*------------------------------------*\
+    #MOD_MAP_IMAGE (модуль карты (картинка))
+\*------------------------------------*/
+.mod-map-image-gr {
+    background-color: #eeeeee;
+    padding: 50px 0 20px 0;
+    text-align: center;
+}
+
+.mod-map-image-gr .container { 
+    position: relative;
+}
+
+.mod-map-image-gr img {
+    max-width: 100%;
+}
+
+.mod-map-image-gr .text {
+    position: absolute;
+    padding: 0 70px;
+    font-size: 24px;
+    font-family: 'MyriadPro-Regular';
+    top: -25px;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #MOD_FORM_WATER (форма на воде)
+\*------------------------------------*/
+.mod-form-gr.water {
+    padding: 30px 0;
+    background-image: url(../images/water.jpg);
+    background-repeat: no-repeat;
+}
+
+.mod-form-gr.water .text-water {
+    padding-left: 5%;
+    width: 70%;
+    display: inline-block;
+    font-size: 24px;
+    color: white;
+    font-family: 'MyriadPro-Regular';   
+}
+
+.mod-form-gr.water .modal_form_btn  {
+    position: relative;
+    z-index: 10;
+    padding: 10px 30px;
+    background-color: #f23c41;
+    color: white;
+    border: 1px solid #f23c41;
+    font-size: 18px;
+    display: inline-block;
+    font-family: 'Open Sans';
+    cursor: pointer;
+    -webkit-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+.mod-form-gr.water .modal_form_btn:hover  {
+    background-color: white;
+    color: #f23c41;
+}
+
+
+
+
+
+
+/*------------------------------------*\
+    #MOD_VIDEO (видео)
+\*------------------------------------*/
+.mod-video-gr {
+    padding: 30px 0; 
+    background-image: url('../images/video-back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.mod-video-gr .name {
+    color: #3582fd;
+    font-size: 28px;
+    text-transform: uppercase;  
+    font-family: 'MyriadPro-Regular';
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mod-video-gr .video {
+    width: 40%;
+    float: left;
+}
+
+.mod-video-gr .text {
+    width: 60%;
+    padding-left: 50px;
+    float: left;
+    padding-top: 10px;
+}
+
+.mod-video-gr p {
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
+/*------------------------------------*\
+    #MOD_TECH (модуль технологий)
+\*------------------------------------*/
+.mod-tech-gr {
+    padding: 30px 0;
+    background-color: #f5f5f5;
+}
+
+.mod-tech-gr .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mod-tech-gr .name {
+    font-size: 24px;
+    padding: 0 160px 40px 160px;
+    text-align: center;
+}
+
+.mod-tech-gr .name span {
+    font-weight: bold;
+}
+
+.mod-tech-gr .block {
+    width: 50%;
+    float: left;
+    height: 120px;
+}
+
+.mod-tech-gr .number {
+    width: 91px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 100%;
+    height: 91px;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+    font-size: 36px;
+    color: #3582fd;
+    padding-top: 23px;
+    font-family: 'Lato';
+}
+
+.mod-tech-gr .number:after {
+    position: absolute;
+    height: 95px;
+    width: 95px;
+    background-image: url(../images/tech-blue.png);
+    background-repeat: no-repeat;
+    content: '';
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.mod-tech-gr .number:before {
+    position: absolute;
+    height: 105px;
+    width: 105px;
+    background-image: url(../images/tech-white.png);
+    background-repeat: no-repeat;
+    content: '';
+    left: -6px;
+    top: 8px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.mod-tech-gr .text{
+    margin-left: 4%;
+    width: 75%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mod-tech-gr .block2 .number:before{
+    -moz-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    transform-origin: 49% 37%;
+}
+
+.mod-tech-gr .block2 .number:after{
+    -moz-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    transform-origin: 47% 49%;
+}
+
+.mod-tech-gr .block3 .number:before{
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    transform-origin: 49% 37%;
+}
+
+.mod-tech-gr .block3 .number:after{
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    transform-origin: 47% 49%;
+}
+
+.mod-tech-gr .block4 .number:before{
+    -moz-transform: rotate(-65deg);
+    -o-transform: rotate(-65deg);
+    -webkit-transform: rotate(-65deg);
+    transform: rotate(-65deg);
+    transform-origin: 49% 37%;
+}
+
+.mod-tech-gr .block4 .number:after{
+    -moz-transform: rotate(-65deg);
+    -o-transform: rotate(-65deg);
+    -webkit-transform: rotate(-65deg);
+    transform: rotate(-65deg);
+    transform-origin: 47% 49%;
+}
+
+.mod-tech-gr .block1:hover .number:after {
+    -moz-transform: rotate(-190deg);
+    -o-transform: rotate(-190deg);
+    -webkit-transform: rotate(-190deg);
+    transform: rotate(-190deg);
+    transform-origin: 47% 49%;
+}
+
+.mod-tech-gr .block2:hover .number:after {
+    -moz-transform: rotate(-210deg);
+    -o-transform: rotate(-210deg);
+    -webkit-transform: rotate(-210deg);
+    transform: rotate(-210deg);
+    transform-origin: 47% 49%;
+}
+
+.mod-tech-gr .block3:hover .number:after {
+    -moz-transform: rotate(-230deg);
+    -o-transform: rotate(-230deg);
+    -webkit-transform: rotate(-230deg);
+    transform: rotate(-230deg);
+    transform-origin: 47% 49%;
+}
+
+.mod-tech-gr .block4:hover .number:after {
+    -moz-transform: rotate(-250deg);
+    -o-transform: rotate(-250deg);
+    -webkit-transform: rotate(-250deg);
+    transform: rotate(-250deg);
+    transform-origin: 47% 49%;
+}
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+    #MOD_REVIEW (модуль отзывов)
+\*------------------------------------*/
+.mod-review-gr {
+    padding: 40px 0;
+    background-image: url('../images/review-back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.mod-review-gr .name-1 {
+    font-weight: bold;
+    font-family: 'MyriadPro-Regular';
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #3582fd;
+    padding-bottom: 20px;
+}
+
+.mod-review-gr .name-2 {
+    font-family: 'MyriadPro-Regular';
+    font-size: 24px;
+    text-align: center;
+    padding: 0 200px 30px 200px;
+}
+
+.mod-review-gr .name-2 span{
+    font-weight: bold;
+}
+
+.mod-review-gr .review {
+    margin: 25px 20px;
+    background-color: white;
+    box-shadow: 0 0 20px #dfdfdf;
+    padding: 30px;
+}
+
+.mod-review-gr .review-slider {
+    margin: 0 20px;
+}
+
+.mod-review-gr .img {
+    height: 125px;
+    width: 125px;
+    border-radius: 100%;
+    border: 4px solid #d1d1d1;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.mod-review-gr .info {
+    display: inline-block;
+    width: 255px;
+    vertical-align: top;
+}
+
+.mod-review-gr  .name {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'MyriadPro-Regular';
+    padding-bottom: 10px;
+}
+
+.mod-review-gr  .prof {
+    font-size: 13px;
+    font-style: italic;
+    padding-bottom: 10px;
+    color: #808080;
+}
+
+.mod-review-gr  .rate-text {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.mod-review-gr  .rate-star span {
+    display: inline-block;
+    height: 17px;
+    background-image: url('../images/rate.png');
+    position: relative;
+    top: 2px;
+}
+
+.mod-review-gr .bottom {
+    padding-top: 10px;
+}
+
+.mod-review-gr .rev-text {
+    line-height: 1.6;
+}
+
+.mod-review-gr .rev-text div {
+    font-weight: bold;
+}
+
+.mod-review-gr  .photo-wrapper {
+    width: 33.3%;
+    float: left;
+    padding-left: 20px;
+}
+
+.mod-review-gr  .photos {
+    margin-left: -20px;
+    padding-top: 15px;
+}
+
+.mod-review-gr  .photo {
+    height: 120px;
+    border: 4px solid #d1d1d1;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+    cursor: pointer;
+}
+
+.mod-review-gr  .photo:hover {
+    border: 4px solid #3582fd;
+}
+
+.mod-review-gr .close {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 22px;
+    cursor: pointer;
+    color: black;
+    -webkit-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+.mod-review-gr .close:hover {
+    color: #f23c41;
+}
+
+.mod-review-gr  .modal-body {
+    text-align: center;
+}
+
+.mod-review-gr a.prev_prod,.mod-review-gr a.next_prod {
+    display: block;
+    background:url(../images/buttons_slider.png) no-repeat;
+    width: 22px;
+    height: 53px;
+    text-decoration: none;
+    position: absolute;
+    top: 45%;
+    z-index: 10;
+}
+
+.mod-review-gr a.prev_prod {
+    left: -25px;
+}
+
+.mod-review-gr a.next_prod {
+    right: -25px;
+}
+
+.mod-review-gr a.next, .mod-review-gr a.next_prod {
+    background-position: 0px -114px;
+}
+
+.mod-review-gr a.prev, .mod-review-gr a.prev_prod {
+    background-position: 0px -171px;
+}
+
+.mod-review-gr a.next:hover, .mod-review-gr a.next_prod:hover { 
+    background-position: 0px 0px;
+}
+
+.mod-review-gr a.prev:hover, .mod-review-gr a.prev_prod:hover {
+    background-position: 0px -57px;
+}
+
+.mod-review-gr img {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+/*------------------------------------*\
+    #CONTACTS_BLOCK (блок с контактами)
+\*------------------------------------*/
+.contacts-block {
+    padding: 40px 0;
+}
+
+.contacts-block .left-block, .contacts-block .right-block {
+    width: 50%;
+    float: left;
+}
+
+.contacts-block .name {
+    font-size: 28px;
+    font-family: 'MyriadPro-Regular';
+    color: #3582fd;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.mod-map-gr .map_window {
+    height: 290px;
+}
+
+.mod_contacts_block_gr {
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.mod_contacts_block_gr .name-block {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.mod_contacts_block_gr .contacts {
+    padding-bottom: 20px;
+}
+
+.mod_contacts_block_gr .contacts div {
+    float: left;
+    width: 50%;
+    padding-bottom: 5px;
+    height: 25px;
+}
+
+.mod_contacts_block_gr .contacts .bel:before {
+    content: '';
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+    width: 20px;
+    height: 15px;
+    background-image: url(../images/bel.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    background-size: center center;
+}
+
+.mod_contacts_block_gr .contacts .rus:before {
+    content: '';
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+    width: 20px;
+    height: 15px;
+    background-image: url(../images/rus.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    background-size: center center;
+}
+
+.mod_contacts_block_gr .contacts .phone:before {
+    content: '';
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+    width: 20px;
+    height: 15px;
+    background-image: url(../images/phone.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    background-size: center center;
+}
+
+.mod_contacts_block_gr .contacts .mail:before {
+    content: '';
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+    width: 20px;
+    height: 15px;
+    background-image: url(../images/mail.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    background-size: center center;
+}
+
+.mod_contacts_block_gr .contacts .skype:before {
+    content: '';
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+    width: 20px;
+    height: 15px;
+    background-image: url(../images/skype.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    background-size: center center;
+}
+
+.footer {
+    position: relative;
+}
+
+.social-block {
+    position: absolute;
+    left: 45%;
+    top: 10px;
+    z-index: 10;
+}
+
+.mod-social-gr .social {
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.mod-social-gr .vk {
+    background-image: url(../images/vk.jpg);
+}
+
+.mod-social-gr .twitter {
+    background-image: url(../images/twitter.jpg);
+}
+
+.mod-social-gr .facebook {
+    background-image: url(../images/facebook.jpg);
+}
+
+.mod-social-gr .od {
+    background-image: url(../images/od.jpg);
+}
+
+.mod-social-gr .youtube {
+    background-image: url(../images/youtube.jpg);
+}
+
+
+
+
+
+
+
+/*------------------------------------*\
+    #POOLS_DETAIL (карточка бассейна)
+\*------------------------------------*/
+.competitors {
+    top: 70px;
+}
+
+.mod_cover_pool_gr {
+    padding: 30px 0;
+}
+
+.mod_cover_pool_gr .name {
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'MyriadPro-Regular';
+    color: black;
+}
+
+.mod_cover_pool_gr a {
+    display: block;
+    text-align: center;
+}
+
+.mod_cover_pool_gr .text {
+    border-bottom: 1px solid #0096e0;
+    display: inline-block;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.mod_cover_pool_gr .img {
+    border-radius: 100%;
+    height: 140px;
+    width: 140px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    display: inline-block;
+    margin-bottom: 25px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    position: relative;
+}
+
+.mod_cover_pool_gr .img:after {
+    content: '';
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    background-color: black;
+    opacity: 0;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    left: 0;
+    top: 0;
+}
+
+.mod_cover_pool_gr a:hover .img {
+    background-size: 135% 135%;
+}
+
+.mod_cover_pool_gr a:hover .text {
+    border-bottom: 1px solid transparent;
+}
+
+.mod_cover_pool_gr a:hover .img:after {
+    opacity: 0.3;
+}
+
+.mod_pool_gallery_gr {
+    position: relative;
+}
+
+.mod_pool_gallery_gr .img {
+    width: 23%;
+    height: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: inline-block;
+    margin: 0 0.6%;
+}
+
+.mod_pool_gallery_gr .imgs {
+    width: 100%;
+    padding: 0 3%;
+}
+
+.rslides_nav {
+    position: absolute;
+    top: 45%;
+    z-index: 10;
+}
+
+.rslides_nav.prev {
+    left: 0;
+}
+
+.rslides_nav.next {
+    right: 12px;
+}
+
+.mod_pool_gallery_gr {
+    padding: 30px 0;
+}
+
+.mod_pool_gallery_gr a, .mod_pool_gallery_gr a:hover {
+    text-decoration: none;
+}
+
+.mod_pool_gallery_gr a {
+    color: #848384;
+    font-size: 20px;
+}
+
+.mod_pool_gallery_gr a:hover {
+    color: #0075d6;
+}
+
+.mod_pool_gallery_gr .img-modal {
+    display: none;
+}
+
+#fancy_div {
+    text-align: center;
+}
+
+#fancy_div img {
+    max-width: 100%;
+    max-height: 100%;
+}
+@media only screen and (max-width : 1200px) {
+	.mod-plus-gr .text {
+    font-size: 22px;
+   
+}}
+@media (max-width: 992px) {
+	.mod-review-gr .photo {
+       height: 50px;}
+	.mod-review-gr .info {
+      width: auto;
+    
+}
+	.social-block {
+    position: initial;
+}
+	.contacts-block .left-block, .contacts-block .right-block {
+    width: 100%;
+    float: left;
+}
+	.mod-tech-gr .block {
+    width: 100%;
+    float: left;
+   height: auto;
+    padding-bottom: 20px;
+	padding-left:10px;
+}
+	.mod-tech-gr .number:after{
+		display:none;}
+	.mod-tech-gr .number:before{
+		display:none;}
+.contacts-block .name {
+    font-size: 22px;
+    
+}		
+	.mod-tech-gr .name {
+    font-size: 22px;
+    padding: 0 10px 20px 10px;
+    text-align: center;
+}
+.mod-review-gr .name-2 {
+    font-family: 'MyriadPro-Regular';
+    font-size: 18px;
+    text-align: center;
+    padding: 0 10px 30px 10px;
+}
+.mod-review-gr .name-1 {
+    font-size: 22px;
+    padding: 0 10px 20px 10px;
+    text-align: center;
+}
+	.mod-form-gr.water .text-water {
+    padding-left: 0%;
+    width: 100%;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+	text-align: center;
+    font-family: 'MyriadPro-Regular';
+}
+.mod-form-gr.water .modal_form_btn {
+
+    text-align: center;
+    margin: auto;
+    width: 50%;
+	display: block;
+}
+	.mod-map-image-gr .text {
+    position: inherit; 
+    padding: 0 10px;
+    font-size: 18px;
+    top: -25px;
+}
+	.text-on-pool > .custom {
+    position: inherit;
+}
+	.text-on-pool {
+    width: 100%;
+    text-align: center;
+	top:0;
+	margin-left: 15px;
+	    background: rgba(255, 255, 255, 0.6);
+}
+.text-on-pool .modal_form_btn {
+    position: inherit;
+    margin-bottom: 20px;
+}
+	
+	.mod-video-gr .name {
+    font-size: 22px;
+    padding-bottom: 20px;
+    }
+	
+	.mod-video-gr .video {
+    width: 100%;
+    float: inherit;
+	padding: 10px 20px;
+}
+
+.mod-video-gr .text {
+    width: 100%;
+    float: inherit;
+    padding-top: 10px;
+	padding: 0 20px;
+}  
+.mod-plus-gr .text-top {
+    padding-bottom: 20px;
+    font-size: 18px;
+   }
+  .mod-plus-gr .text-bottom {
+    padding-top: 20px;
+    font-size: 18px;
+   
+}
+.mod-plus-gr .under {
+      padding: 0 10px 30px 10px;
+}
+.mod-plus-gr .img {
+    margin-bottom: 10px;
+}
+    .mod_cover_pool_gr .text {
+        display: block;
+        border-bottom: 1px solid transparent;
+    }
+    
+    .mod_cover_pool_gr .cover-pool {
+        padding-bottom: 40px;
+    }
+	.mod-plus-gr .plus2:after {
+    display:none;
+}
+.mod-plus-gr .plus3 {
+    margin-top: 60px;
+}
+.mod-plus-gr .plus1, .mod-plus-gr .plus3 {
+    width: 100% !important;
+    float: left;
+}
+
+.mod-plus-gr .plus2 {
+    width: 100% !important;
+    float: left;
+    position: relative;
+    top: 30px;
+}
+}
+@media (max-width: 768px) {
+	  #slider_block_2{display:none;}
+	  .pools-slick a.moduleItemFull {
+       text-align: center;
+	   margin: auto;
+	 
+	}
+	#slider_block_wrap .basseins_slider {
+    text-align: center;
+}
+	
+	.center_main_page{display:none;}
+	.mod-review-gr {
+   display: none;
+}
+.mod_pool_gallery_gr .img {
+   width: 42%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: inline-block;
+    margin: 0 3.6%;
+}
+
+.mod_pool_gallery_gr .imgs {
+    width: 100%;
+    padding: 0 0%;
+}
+
+
+
+.rslides_nav.next {
+    right: 0;
+}	
+	
+	
+	
+	.mod-review-gr .rev-text {
+    line-height: 1.2;
+}
+	
+.mod-tech-gr .number {
+    width: 51px;
+    display: inline-block;
+    height: 51px;  
+    font-size: 18px;    
+    padding-top: 15px;
+   }
+.text-on-pool {
+    width: 100%;
+   font-size:18px;
+	margin-left: 0px;
+	    background: rgba(255, 255, 255, 0.6);
+}
+.mod-form-gr.water .modal_form_btn {
+    width: 100%;
+	
+}
+.mod-video-gr .name {
+    font-size: 18px;
+       }
+	   .mod-tech-gr .name {
+    font-size: 18px;
+    padding: 0 10px 20px 10px;
+    text-align: center;
+}
+ }
+@media only screen and (max-width : 480px) {.mod_contacts_block_gr .contacts div {
+    float: left;
+    width: 100%;
+    padding-bottom: 5px;
+    height: 25px;
+}
+.mod-review-gr .img {
+    height: 85px;
+    width: 85px;
+    margin-right: 0px;
+   
+}
+.mod_pool_gallery_gr .img {
+    width: 80%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: inline-block;
+    margin: 1% 10%;
+}}
+@media (min-width: 768px) {
+	 #slider_block_1{display:none;}}

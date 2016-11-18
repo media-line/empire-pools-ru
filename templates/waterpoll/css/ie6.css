@@ -1,0 +1,48 @@
+/*#content_block,.foxcontainer{width:690px !important;}*/
+/*#left_menu li{display:block;}
+/*
+ul#left_menu li:hover a,ul#left_menu li.active a{color:#ffffff;}
+*/
+/*ul#left_menu li a{position:relative;}*/
+
+ul.menu li{position:relative;}
+ul.menu ul,ul.menu ul a{z-index:77;}
+ul.menu li.item-101 ul li a{width:150px;}
+ul.menu li.item-135 ul li a{width:170px;}
+ul.menu li.item-118 ul li a{width:180px;}
+ul.menu li.item-143 ul li a{width:150px;}
+ul.menu li.item-119 ul li a{width:220px;}
+
+#bassein #oborudovanie{margin-left:95px !important;}
+
+#oborudovanie_popup{margin:22px 0 0 -238px !important;}
+#technologiya_popup,#otdelka_popup{margin:-229px 0 0 -176px !important;}
+#cvet_basseina_popup{margin:22px 0 0 -22px !important;}
+
+.fs-sp1-controllers span{/*background:url(../images/btn_slider.gif) no-repeat scroll 0 0 transparent;overflow:hidden;*/}
+.fcaptchainputcontainer .foxtext{float:left !important;}
+.foxfield .foxbutton{clear:both;}
+#FoxForm div a{float:right;display:block;color:#ffffff;}
+
+#k2ModuleBox88.k2ItemsBlock li{width:173px;}
+.jcarousel td{vertical-align:middle;}
+.jcarousel .moduleItemIntrotext{height:189px;}
+.files{padding:10px 0 0 0;}
+.files .files{padding:0px 10px 10px 10px;}
+
+.itemBody .itemImageBlock{width:180px;}
+.moduletable .basseins .menu{padding:20px 20px 20px 20px !important;}
+
+
+#sbox-window{display:none;}
+
+
+
+
+.k2Pagination li, .k2Pagination li span, .k2Pagination li a{display:block;}
+.k2Pagination li{float:left;}
+.k2Pagination li,.k2Pagination li a{width:20px;height:20px;}
+.k2Pagination li a{line-height:20px;}
+
+.k2ModuleBox88{height:250px;}
+.k2Pagination{float:right;}

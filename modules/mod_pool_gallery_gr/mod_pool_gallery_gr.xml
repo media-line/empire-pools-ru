@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.0"
+	client="site"
+	method="upgrade">
+	<name>Модуль галлереи в бассейнах</name>
+	<author>Sergei Bolonikov</author>
+	<creationDate>2016</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>sergeibolonikov@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>Модуль галлереи в бассейнах</description>
+	<files>
+		<filename module="mod_pool_gallery_gr">mod_pool_gallery_gr.php</filename>
+		<filename>index.html</filename>		
+		<filename>mod_pool_gallery_gr.xml</filename>
+        <folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+                <field name="img1" type="media"
+					label="Изображение 1" />	
+                <field name="img2" type="media"
+					label="Изображение 2" />
+                <field name="img3" type="media"
+					label="Изображение 3" />	
+                <field name="img4" type="media"
+					label="Изображение 4" />
+                <field name="img5" type="media"
+					label="Изображение 5" />	
+                <field name="img6" type="media"
+					label="Изображение 6" />
+                <field name="img7" type="media"
+					label="Изображение 7" />	
+                <field name="img8" type="media"
+					label="Изображение 8" />
+                <field name="img9" type="media"
+					label="Изображение 9" />	
+                <field name="img10" type="media"
+					label="Изображение 10" />
+                <field name="img11" type="media"
+					label="Изображение 11" />
+                <field name="img12" type="media"
+					label="Изображение 12" />
+                <field name="img13" type="media"
+					label="Изображение 13" />
+                <field name="img14" type="media"
+					label="Изображение 14" />
+                <field name="img15" type="media"
+					label="Изображение 15" />
+                <field name="img16" type="media"
+					label="Изображение 16" />
+            </fieldset>
+		</fields>
+	</config>
+</extension>

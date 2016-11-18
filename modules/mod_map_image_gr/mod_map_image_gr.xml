@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.0"
+	client="site"
+	method="upgrade">
+	<name>Модуль карты (картинка)</name>
+	<author>Sergei Bolonikov</author>
+	<creationDate>2016</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>sergeibolonikov@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>Модуль карты (картинка)</description>
+	<files>
+		<filename module="mod_map_image_gr">mod_map_image_gr.php</filename>
+		<filename>index.html</filename>		
+		<filename>mod_map_image_gr.xml</filename>
+        <folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+                <field name="map-text" type="textarea"
+					label="Текст на карте" />	
+            </fieldset>
+		</fields>
+	</config>
+</extension>

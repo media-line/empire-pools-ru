@@ -1,0 +1,185 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+ul#top_menu li a {    
+   padding-left: 5px !important;
+   padding-right: 5px !important;
+}
+ul#additional_top_menu li {
+    padding: 0 0 0 3px !important;
+}
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.top_header {
+      height: auto !important;
+}
+#winter-banner{
+	display: none !important;	}
+.deal1{
+	display: none;	
+	}
+.deal1 img{
+	display: none !important;
+	}	
+	#left_block .dealers {
+    padding-top: 0px !important; 
+}
+.dealers h3{display: none;
+	}	
+#left_block .moduletable h3{
+	text-align:center;}	
+	#left_block .moduletable .dealers{
+		text-align:center;}
+		.dealers p {
+    padding: 0 0 0px 0 !important;
+}
+.specialist_item, .moduletable .dealers {
+      padding: 5px !important;
+	  margin: 0 0 10px 0 !important;}
+.specialist_item table{
+	margin:auto;}	
+	.moduletable.banners{
+	display:none !important;}
+ul#top_menu li{		
+		display: none;		
+	}
+.top_pos {
+   float: inherit;
+   text-align:center;
+   padding-top: 12px;
+   margin-left: 0px !important;
+   margin-top: -60px;
+}	
+.logo {
+   padding: 5px 35px 5px 0 !important;
+   float: inherit !important;
+}
+ul#additional_top_menu {
+    float: right;
+    padding: 15px 0 25px 0 !important;
+    margin-top: -50px !important;
+}	
+ul#top_menu {
+    position: absolute !important;
+	right:0;
+	    z-index: 1000;
+	width: 100%;
+	    padding-top: 15px;
+}
+ul#top_menu li{
+    float: none !important;
+    background:#000c2f;
+}
+ul#additional_top_menu li {
+    float: left;
+    background:#000c2f;
+}
+ul#top_menu li a {
+    height: auto !important;
+	text-align:center;    
+    border-bottom: 1px solid;
+}
+
+ul#top_menu li ul li {
+       background: #002e69 !important;
+}
+ul#top_menu li ul {
+    display: none;
+    position: inherit !important;
+    /* background: url(../images/top_menu_parent_bg.png); */
+    z-index: 777;
+}	
+#left_block {
+    float: inherit !important; 
+    width: 100% !important;
+}	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+#content_block {
+    margin-left: 0px !important;
+}
+.item-page table{
+	width:100%;}
+	
+.breadcrumbs * {
+    font-size: 12px !important;
+   }
+	
+
+
+}
+@media only screen and (max-width : 560px) {
+	.top_pos {
+    margin-top: -20px !important;
+    padding-bottom: 5px;}
+	ul#additional_top_menu {
+    margin-top: -100px !important;
+}
+ul#top_menu {
+       padding-top: 5px !important;}
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+#footer {
+      text-align: center;
+}
+#footer #medialine p {
+    text-align: center !important;
+}
+div.catItemIntroText1 img {
+    height: auto;
+	padding:2px;
+    width: 100%;
+}
+.catItemImageBlock1 {
+  
+    float: inherit !important;
+  
+}
+}
+
+/* Custom, iPhone Retina
+ */
+@media only screen and (max-width : 320px) {
+	.logo img{
+		width:130px;}
+#medialine img {
+    margin-top: 0px !important;
+}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.ban_min{
+	display:none !important;}
+	.catItemBody2{
+		display:flex;}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

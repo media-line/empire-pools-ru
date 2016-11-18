@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.0"
+	client="site"
+	method="upgrade">
+	<name>Модуль блока контактов</name>
+	<author>Sergei Bolonikov</author>
+	<creationDate>2016</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>sergeibolonikov@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>Модуль блока контактов</description>
+	<files>
+		<filename module="mod_contacts_block_gr">mod_contacts_block_gr.php</filename>
+		<filename>index.html</filename>		
+		<filename>mod_contacts_block_gr.xml</filename>
+        <folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+                <field name="address" type="textarea"
+					label="Адрес" />	        
+            
+                <field name="contacts1" type="text"
+					label="Контакт 1" />	
+                <field name="contacts-class1" type="text"
+					label="Класс поля 1" />
+                    
+                <field name="contacts2" type="text"
+					label="Контакт 2" />	
+                <field name="contacts-class2" type="text"
+					label="Класс поля 2" />	
+                    
+                <field name="contacts3" type="text"
+					label="Контакт 3" />	
+                <field name="contacts-class3" type="text"
+					label="Класс поля 3" />
+                    
+                <field name="contacts3" type="text"
+					label="Контакт 3" />	
+                <field name="contacts-class3" type="text"
+					label="Класс поля 3" />
+                    
+                <field name="contacts4" type="text"
+					label="Контакт 4" />	
+                <field name="contacts-class4" type="text"
+					label="Класс поля 4" />
+                    
+                <field name="contacts5" type="text"
+					label="Контакт 5" />	
+                <field name="contacts-class5" type="text"
+					label="Класс поля 5" />
+                    
+                <field name="contacts6" type="text"
+					label="Контакт 6" />	
+                <field name="contacts-class6" type="text"
+					label="Класс поля 6" />
+                    
+                <field name="contacts7" type="text"
+					label="Контакт 7" />	
+                <field name="contacts-class7" type="text"
+					label="Класс поля 7" />
+                    
+                <field name="contacts8" type="text"
+					label="Контакт 8" />	
+                <field name="contacts-class8" type="text"
+					label="Класс поля 8" />
+            </fieldset>
+		</fields>
+	</config>
+</extension>
