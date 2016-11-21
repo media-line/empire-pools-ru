@@ -13,7 +13,7 @@ defined('_JEXEC') or die;
     <div>
         <?php
             $text = $params->get('text');
-            echo '<marquee scrollAmount="3">'.$text.'</marquee>';
+            echo '<marquee class="runstr" scrollAmount="3">'.$text.'</marquee>';
         ?>
     </div>
 </div>
