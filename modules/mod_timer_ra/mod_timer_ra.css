@@ -18,14 +18,10 @@
 .big_text, .top_text {
     width: 100%;
     text-align: center;
-    padding: 5%;
+    padding: 0 5%;
     font-weight: bolder;
     font-size: 16pt;
     padding-bottom: 0px;
-}
-
-.top_text {
-    padding-top: 2%;
 }
 
 #clockdiv{

@@ -17,6 +17,7 @@
 		<filename module="mod_statstr_ra">mod_statstr_ra.php</filename>
 		<filename>index.html</filename>		
 		<filename>mod_statstr_ra.xml</filename>
+        <filename>mod_statstr_ra.css</filename>
         <folder>tmpl</folder>
 	</files>
 	<config>

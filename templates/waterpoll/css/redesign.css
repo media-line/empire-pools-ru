@@ -1344,3 +1344,7 @@
 }}
 @media (min-width: 768px) {
 	 #slider_block_1{display:none;}}
+     
+#copyright .footer1 {
+    max-width: 400px;
+}
