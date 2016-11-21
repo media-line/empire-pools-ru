@@ -11,7 +11,6 @@ h1,h2,h3{font: normal 25px "Myriad Pro", Arial;color:#000000;}
 .kont{
 	float: right;
     padding-right: 100px;
-    padding-top: 50px;
     font-size: 24px;}
 .kont img{
 	padding-right:5px;}	
@@ -586,6 +585,12 @@ div#fancy_div {
 
 .left-block img {
     width: 100%;
+}
+
+.timer {
+    position: relative;
+    top: 0;
+    right: 0;
 }
 
 

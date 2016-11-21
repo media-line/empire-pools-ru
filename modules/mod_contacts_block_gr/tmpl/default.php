@@ -26,4 +26,10 @@ defined('_JEXEC') or die;
     <div class="address">
         <?php echo $params->get('address'); ?>
     </div>
+    <div class="name-block" style="margin-top: 15px;">
+        <?php echo "Офис в Москве" ?>
+    </div>
+    <div class="address">
+        <?php echo $params->get('address2'); ?>
+    </div>
 </div>

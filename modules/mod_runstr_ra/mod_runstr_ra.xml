@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.0"
+	client="site"
+	method="upgrade">
+	<name>Модуль бегущей строки</name>
+	<author>Andrei Krauchanka</author>
+	<creationDate>12.2016</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>krauchanka.a@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>Модуль бегущей строки</description>
+	<files>
+		<filename module="mod_runstr_ra">mod_runstr_ra.php</filename>
+		<filename>index.html</filename>		
+		<filename>mod_runstr_ra.xml</filename>
+        <filename>mod_runstr_ra.css</filename>
+        <folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+                <field name="text" type="text"
+					label="Текст бегущей строки" />
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>

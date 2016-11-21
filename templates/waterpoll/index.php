@@ -235,9 +235,12 @@
     
     <?php if (JURI::current() == JURI::base()) { ?>
         <div class="container">
+            <div class="timer">
+                <jdoc:include type="modules" name="timer" style="xhtml" />
+            </div>
             <div class="row">
                 <div class="text-on-pool">
-                    <jdoc:include type="modules" name="text-on-pool" style="none" />	
+                    <jdoc:include type="modules" name="text-on-pool" style="none" />
                 </div>
                 <div class="col-md-12">
                     <div id="content_block" class="content-mainpage<?php if($Itemid == 101) echo ' main_page'; ?>">
@@ -245,10 +248,7 @@
                         <jdoc:include type="component" />
                     </div>
                 </div>
-            </div> 
-        </div>
-        <div>
-            <jdoc:include type="modules" name="timer" style="xhtml" />
+            </div>
         </div>
 
     <?php } else { ?>

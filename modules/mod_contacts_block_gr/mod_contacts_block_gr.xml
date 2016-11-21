@@ -23,9 +23,11 @@
 		<fields name="params">
 			<fieldset name="basic">
                 <field name="address" type="textarea"
-					label="Адрес" />	        
-            
-                <field name="contacts1" type="text"
+					label="Адрес" />
+				<field name="address2" type="textarea"
+					   label="Адрес российского офиса" />
+
+				<field name="contacts1" type="text"
 					label="Контакт 1" />	
                 <field name="contacts-class1" type="text"
 					label="Класс поля 1" />
